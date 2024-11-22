@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  background-color: #e8f5e9;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-success {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.form-control:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
